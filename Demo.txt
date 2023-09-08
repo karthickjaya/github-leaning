@@ -1,0 +1,120 @@
+1st step:
+div,section,article
+css and types
+box model
+netlify deployment
+webkata
+
+div vs section:
+section has some similar set of elements
+whereas in div that is not the case
+it can have differe set of elements
+<div>this is div</div>
+<section>this is section</section>
+<artcle>this is article</artcle>
+
+what is css:
+cascaded style sheet
+types of css:
+1.inline
+2.internal
+3.external
+
+All the properties of css can be in terms of key=value pair
+
+inline css can be applied inside the tag itself using the style attribute
+
+Internal Css:
+it can be applied  by using the <style></style> tag
+selectors:
+class,id,tag
+class selectors:
+syntax:
+.classname{
+
+}
+class selector can be applied for more than 1 elements
+
+Id selector:
+syntax:
+#idname{
+
+}
+idname is applicable only for the one element
+it is refered using id attribute
+1.for a single element can i apply class as well as id  attribute??
+2.if yes is about answer then which color will render
+priorites:
+Inline>id>class
+id selecto will be having the highest priority
+compared to id,inline css will be having highest priority
+External css:
+To connect external css we need link tag
+<link rel="stylesheet" href="index.css">
+here rel stands for relation between documents
+href stands for the link where file exists
+inline>internal>external
+
+
+26.8.2023;
+BOx model
+position properties
+pseudo selectors:
+Flex and Grid:
+Abox model is a Box that is wrapped around every HTML elements
+A box madel consists of:
+Margin
+Border
+padding
+
+Margin: it is a imaginary space around an HTML elements
+short hand notation:u will be mentiong the  px size around an element
+margin:top right bottom left
+Application:if you want to make the html element to move around
+
+Border:it is a thick visibile line
+width,style,color are the 3 impartant property
+padding:it is a imaginay space around an content
+it can be applied via shirthand notation
+
+Display properties:
+Block level element: they always display on the new line
+Ex:div,p,section,article,..
+Inline Elements: They alway displayed on the same line
+syntax:display: block/inline
+Ex:span:
+you can convert block level to inline as well as inline to block vice versa using display proper ties
+
+
+css units:
+Absolute,relative
+
+
+
+
+
+27/8/2023 sunday
+Flex:
+overflow
+css units
+Flex:
+flex stands for flexible box
+div
+container
+display propertynormal div to fiex box
+flex properties:
+flex direction
+flex wrapped
+allign-content
+justify-content
+allign-itens
+
+
+RWD:responsive web design
+media query:
+is needed to add the RWD
+syntax:
+@media screen and (screen weidh height){
+
+}
+Bootstrap:Building responsive Mobile first sites
