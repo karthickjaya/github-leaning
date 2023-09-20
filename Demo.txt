@@ -118,3 +118,10 @@ syntax:
 
 }
 Bootstrap:Building responsive Mobile first sites
+CDN:content delivery network
+Breakpoint:device break Nreakpoints
+xs:external>576(100px)
+sn:small >576>range=768(540px)
+md:medium 768>range<=992(720px)
+lg:large 992>range<=1200(968px)
+xl:extra large >=1200(1140px)
